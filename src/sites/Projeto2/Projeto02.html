@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>projeto1 - display</title>
+    <link rel="stylesheet" href="../../framework/bootstrap-5.3.7-dist/css/bootstrap.min.css">
+    <link rel="shortcut icon" href="https://bombeefburgers.com.br/wp-content/uploads/2022/07/burgers.png" type="image/x-icon">
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+        }
+
+        body {
+            overflow-x: hidden;
+            background-color: orange;
+        }
+
+        h1{
+          color: orange;
+        }
+
+    </style>
+
+</head>
+
+<body>
+
+    <!-- CABEÇALHO -->
+
+    <header>
+
+        <nav class="navbar navbar-expand-lg bg-body-tertiary" style="background-color: brown!important;">
+            <div class="container-fluid" style="background-color: brown;">
+              <a class="navbar-brand" href="#"><img src="https://bombeefburgers.com.br/wp-content/uploads/2022/07/burgers.png" alt="" width="100px" height="100px"></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">calma ae</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Cardapio
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#"> Bebidas </a></li>
+                      <li><a class="dropdown-item" href="#"> Lanches e Favoritos </a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#"> Favoritos </a></li>
+                    </ul>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+
+    </header>
+
+    <!-- CONTEUDO COM A SECTIONS DA PAGINA -->
+
+    <main class="flex-fill">
+    
+      <section>
+
+        <div class=" d-flex justify-content-center align-items-center">
+          <div class="row mt-5 mb-5  "  >
+            <div class="col-md-10">
+              <img src="https://bombeefburgers.com.br/wp-content/uploads/2022/07/burgers.png" alt="" width="200px "
+              height="200px" style="margin-right: 100px;">
+            <img src="https://bombeefburgers.com.br/wp-content/uploads/2022/07/bur-1024x739-1.jpg" alt="" width="400px">
+            </div>
+            <div class="col-md-2">
+              <div class="card" style="width: 18rem;">
+                <img src="https://assets-food.olga.tech/728de5c2-a913-48da-a27e-71983f9932b2-1689106311016.png"
+                  class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">VENHA CONFERIR NOSSO CARDAPIO</h5>
+                  <p class="card-text">Veja as opções de todos os lanches</p>
+                  <a href="#" class="btn btn-primary">Clique aqui e confira !</a>
+                </div>
+            </div>
+          </div>
+        </div>
+          
+        </div>
+
+        <div class=" d-flex justify-content-center align-items-center">
+          <div class="row">
+            <div class="col" style="margin-right: 20px;">
+              <div class="col-md-6"
+              style="display: flex; justify-content: center; align-items: center; flex-direction: column;">
+              <h2 style="color: black;"> Nossa Localização </h2>
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3688.463971860986!2d-47.570736923791834!3d-22.411556220361707!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94c7dba6a24ac835%3A0x44abdae1ed03d4e7!2sBom%20Beef%20Burgers%20Rio%20Claro!5e0!3m2!1spt-BR!2sbr!4v1755799134897!5m2!1spt-BR!2sbr"
+                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+    
+            </div>
+            </div>
+          </div>
+        </div>
+    
+       
+        
+      </section>
+
+        <section>
+
+            <div
+                style="height: 50vh; background-color: black; display: flex; flex-direction: column; justify-content: center; align-items: center;">
+                <h1 style="color: white;">
+                    Alguns de nossos Lanches
+                </h1>
+                <br>
+                <p style="text-align: center; color: orange;">
+                    Todos feitos com os melhores ingredientes e feitos na HORA
+                </p>
+            </div>
+            <div id="carouselExampleIndicators" class="carousel slide">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner d-flex align-items-center" >
+                  <div class="carousel-item active">
+                    <img src="https://w.wallhaven.cc/full/0q/wallhaven-0qk9q0.jpg" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="https://w.wallhaven.cc/full/43/wallhaven-43zpw6.jpg" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="https://w.wallhaven.cc/full/2y/wallhaven-2y837y.jpg" class="d-block w-100" alt="...">
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+
+        </section>
+<br>
+        <section>
+
+            <div class="container text-center" style="background-color: brown;align-items: center;justify-content: center;">
+                <div class="row">
+                  <div class="col">
+                    <h1> Endereço: </h1>
+                    <br>
+                    <p> Avenida Visconde de Rio Claro, 1900 – Centro, Rio Claro/SP – 13500-505 </p>
+                    <br>
+                    <h1>Fone:</h1>
+                    <br>
+                    <p>(19) 97117-1953</p>
+                    <br>
+                    <h1>Horários:</h1>
+                    <br>
+                    <p>Segunda a Domingo 11h00 às 23h00</p>
+                  </div>
+                  <div class="col" style="color: orange; align-items: center; justify-content: center;">
+                    
+                    <h1> Redes sociais </h1>
+                      <div class="list-group">
+                        <a href="https://www.instagram.com/netaobombeef/" class="list-group-item list-group-item-dark list-group-item-action " aria-current="true"> @netaobombeef - Instagram 1 </a>
+                        <a href="https://www.instagram.com/bombeefburgers/" class="list-group-item list-group-item-dark list-group-item-action"> @bombeefburgers - Instagram 2 </a>
+                        <a href="https://www.youtube.com/c/Net%C3%A3oBomBeef" class="list-group-item list-group-item-dark list-group-item-action"> @Netão Bom Beef - YouTube </a>
+                      </div>
+                  </div>
+                </div>
+              </div>
+<br>
+        </section>
+
+    </main>
+
+    <!-- RODAPE -->
+
+    <footer class="footer mt-auto">
+
+        <ul class="nav justify-content-center align-items-center" style="background-color: brown;">
+            <li class="nav-item">
+              <a class="nav-link" href="#">Direitos RESERVADOS pelo RUY</a>
+            </li>
+          </ul>
+
+    </footer>
+
+    <script src="../../framework/bootstrap-5.3.7-dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
